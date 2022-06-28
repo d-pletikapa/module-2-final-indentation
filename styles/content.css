@@ -1,0 +1,14 @@
+.content .container {
+  width: 1140px;
+  border-radius: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.content__subtitle {
+  margin-bottom: 20px;
+}
+
+.content__list li:not(:last-child){
+  margin-bottom: 10px;
+}

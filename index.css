@@ -1,4 +1,23 @@
-@import url(intro.css);
+/* :TODO
+     Создайте новый проект (папку) и назовите её indentation.
+     Скачайте макет для верстки и загрузите его в Figma.
+     Сверстайте статью по макету.
+     Соблюдайте все правила которые описаны в статье и код-стайл
+     Используем только те технологии что проходили в прошлых модулях (flex и grid использовать не нужно)
+     --
+     Секция "Содержание"
+     Пункты меню являются якорными ссылками к другим секциям
+     --
+     */
+@import "styles/normalize.css";
+@import "styles/global-styles.css";
+@import "styles/intro.css";
+@import "styles/content.css";
+@import "styles/flow.css";
+@import "styles/last.css";
+@import "styles/null.css";
+@import "styles/summary.css";
+
 /* roboto-regular - latin_cyrillic */
 @font-face {
   font-family: 'Roboto';
@@ -29,4 +48,6 @@
   url('/fonts/roboto-v30-latin_cyrillic-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
   url('/fonts/roboto-v30-latin_cyrillic-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+
 

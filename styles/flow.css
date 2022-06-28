@@ -1,0 +1,37 @@
+.flow p {
+  display: inline-block;
+}
+
+.flow__block-1 p {
+  width: 490px;
+}
+.flow__block-1 img {
+  float: left;
+  margin-right: 25px;
+
+}
+
+.flow__block-1 {
+  display:flow-root
+}
+
+.flow .container {}
+
+.flow__block-2 p{
+  width: 480px;
+  margin-right: 35px;
+}
+
+.flow__block-2 img {
+  float: right;
+}
+
+.flow__block-2 {
+  display:flow-root
+}
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+.summary .container {
+  width: 1140px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.summary__subtitle:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.summary__item{
+  margin-bottom: 10px;
+}
+.summary__list {
+  margin-bottom: 30px;
+}
+
+
+
