@@ -1,14 +1,21 @@
-.content .container {
-  width: 1140px;
-  border-radius: 10px;
+.content {
   padding-left: 150px;
   padding-right: 150px;
 }
 
 .content__subtitle {
+  font-weight: 700;
   margin-bottom: 20px;
 }
 
 .content__list li:not(:last-child){
   margin-bottom: 10px;
+}
+.content__list {color: #02535F;}
+
+.container--content-style {
+  box-sizing: border-box;
+  padding:25px 30px 25px 45px;
+  background: #F1F1F1;
+  border-radius: 10px;
 }

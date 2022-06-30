@@ -1,11 +1,11 @@
-.summary .container {
-  width: 1140px;
+.summary {
   padding-left: 150px;
   padding-right: 150px;
 }
 
-.summary__subtitle:not(:last-child) {
+.summary__subtitle {
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
 .summary__item{
@@ -15,5 +15,13 @@
   margin-bottom: 30px;
 }
 
+.summary__list {color: #02535F;}
+
+.container--summary-style {
+  box-sizing: border-box;
+  padding:25px 30px 25px 45px;
+  background: #F1F1F1;
+  border-radius: 10px;
+}
 
 

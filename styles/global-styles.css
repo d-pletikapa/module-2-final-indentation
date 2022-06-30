@@ -110,7 +110,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 44px;
   line-height: 53px;
   margin-bottom: 30px;
@@ -142,10 +142,4 @@ article:last-child{
   padding-left: 180px;
   padding-right: 180px;
 }
-.wrapper{
-  width: 1140px;
-  box-sizing: border-box;
-  padding:25px 30px 25px 45px;
-  background: #F1F1F1;
-  border-radius: 10px;
-}
+
