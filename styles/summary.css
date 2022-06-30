@@ -8,19 +8,18 @@
   font-weight: 700;
 }
 
-.summary__item{
+.summary__list .summary__item:not(:last-child) {
   margin-bottom: 10px;
 }
 .summary__list {
   margin-bottom: 30px;
+  color: #02535F;
 }
-
-.summary__list {color: #02535F;}
 
 .container--summary-style {
   box-sizing: border-box;
   padding:25px 30px 25px 45px;
-  background: #F1F1F1;
+  background-color: #F1F1F1;
   border-radius: 10px;
 }
 
